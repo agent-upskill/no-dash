@@ -1,6 +1,6 @@
 ---
 name: no-dashes
-description: Enforces no-dashes rule — never use "--" as a decorative separator in output. Always-on background hook, no invocation needed. Trigger words: no-dashes, strip dashes, remove dash separators.
+description: "Enforces no-dashes rule — never use \"--\" as a decorative separator in output. Always-on background hook, no invocation needed. Trigger words: no-dashes, strip dashes, remove dash separators."
 ---
 
 No-dashes rule is always active via UserPromptSubmit hook. No manual invocation needed.
