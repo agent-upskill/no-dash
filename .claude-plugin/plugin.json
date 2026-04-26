@@ -1,0 +1,17 @@
+{
+  "name": "no-dashes",
+  "description": "Strips GPT-style double-dash (--) decorative separators from Claude output. Always on.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/no-dashes.sh\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
